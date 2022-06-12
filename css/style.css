@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.Header{
+    overflow: auto;
+    padding: 36px 4rem;
+    position: fixed;
+    width: 99%;
+}
+
+.Header .icon{
+    width: 16%;
+    float: left;
+}
+
+.Header .menu{
+    float: right;
+    margin-top: 9px;
+}
+
+.Header .menu a{
+    float: right;
+    margin-left: 23px;
+    color: #fff;
+}
+
+
+.First{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 14rem 0;
+}
+
+.First h3{
+    font-size: 36px;
+    color: #fff;
+}
+
+.First h1{
+    font-size: 72px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.First a{
+    background-color: #ffc800;
+    padding: 20px 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+
+.Service{
+    padding: 6rem 4rem;
+    overflow: auto;
+}
+
+.service-text, .third-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-all .box{
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+
+.service-all .box svg{
+    height: 6rem;
+    background-color: #ffc800;
+    color: #fff;    
+}
+
+.service-all .box h3{
+    margin: 10px 0;
+}
+
+#Third{
+    padding: 5rem 4rem;
+    overflow: auto;
+    background-color: #F8F9FA;
+}
+
+.third-all .box{
+    width: 30%;
+    float: left;
+    margin-right: 1px;
+    margin: 20px 15px;
+}
+
+.third-all .box img{
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.third-all .bottom{
+    text-align: center;
+    background-color: #fff;
+    padding: 15px 0;
+}
+
+.last .contents{
+    text-align: center;
+    padding: 160px;
+}
+.last .contents h2{
+margin-bottom: 25px;
+}
+.all .phatos img{
+    width: 25%;
+    border-radius: 50%;
+}
+.all2{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+
